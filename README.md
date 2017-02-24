@@ -1,2 +1,2 @@
 # Simple_Game
-Basically its for submitting games on c / c++ .......
+

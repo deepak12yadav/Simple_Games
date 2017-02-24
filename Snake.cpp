@@ -335,7 +335,7 @@ c=getch();
 
                   if(if_increase_length>=4)                                           // adding the node to increase the snake
               {
-                  cout<<"FUCKED"<<endl;
+                  cout<<"Sorry!!!"<<endl;
                   size_of_snake++;
                   if(head_x%2!=0)
                   {
@@ -417,7 +417,7 @@ c=getch();
                      {
                          if(A[head_x-1][head_y+1].if_activated ==1  &&  A[head_x+1][head_y+1].if_activated==1)
                          {
-                             cout<<"Sorry you are FUCKED !!!!!!!!!!!!!!!!"<<endl;
+                             cout<<"Game Over !!!!!!!!!!!!!!!!"<<endl;
                              break;
                          }
 
@@ -426,7 +426,7 @@ c=getch();
                      else
                         if(A[head_x-1][head_y].if_activated ==1  &&  A[head_x+1][head_y].if_activated==1)
                          {
-                             cout<<"Sorry you are FUCKED !!!!!!!!!!!!!!!!"<<endl;
+                             cout<<"Game Over !!!!!!!!!!!!!!!!"<<endl;
                              break;
                          }
               }
@@ -436,7 +436,7 @@ c=getch();
                      {
                          if(A[head_x-1][head_y-1].if_activated ==1  &&  A[head_x-1][head_y].if_activated==1)
                          {
-                             cout<<"Sorry you are FUCKED !!!!!!!!!!!!!!!!"<<endl;
+                             cout<<"Game Over !!!!!!!!!!!!!!!!"<<endl;
                              break;
                          }
 
@@ -445,7 +445,7 @@ c=getch();
                      else
                         if(A[head_x+1][head_y-1].if_activated ==1  &&  A[head_x+1][head_y].if_activated==1)
                          {
-                             cout<<"Sorry you are FUCKED !!!!!!!!!!!!!!!!"<<endl;
+                             cout<<"Game Over !!!!!!!!!!!!!!!!"<<endl;
                              break;
                          }
               }
